@@ -24,6 +24,26 @@
   color: white;
 }
 
+.main-footer {
+  color: white;
+  background-color: red;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: static;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +55,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.centered {
+  height: 3vh; /* Magic here */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  font-weight: bold;
+}
+
+.nav-dropdown {
+  color: white;
+  font-display: red;
+  /* font-weight: bold; */
+  /* background-color: white; */
+}
+
+.card {
+  display: inline-block;
+  padding: 10px;
+  width: 18rem;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+  color: white;
 }
